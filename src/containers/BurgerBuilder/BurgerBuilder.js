@@ -106,7 +106,7 @@ export default class BurgerBuilder extends React.Component {
           <OrderSummary
             ingredients={this.state.ingredients}
             purchaseCanceled={this.modalCancelHandler}
-            purchaseContinue={this.modalCancelHandler}
+            purchaseContinue={this.purchaseContinueHandler}
             price={this.state.totalPrice}
           />
         </Modal>
